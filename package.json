@@ -3,6 +3,20 @@
   "displayName": "Info Template",
   "description": "Insert File, Method Information templates with ease.",
   "version": "1.0.0",
+  "publisher": "pjayakrishnan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PJayakrishnan/info-template"
+  },
+  "keywords": [
+    "snippet",
+    "info snippet extension",
+    "file information template",
+    "template",
+    "insert template",
+    "insert snippet"
+  ],
+  "icon": "info-template-logo.png",
   "engines": {
     "vscode": "^1.71.0"
   },
