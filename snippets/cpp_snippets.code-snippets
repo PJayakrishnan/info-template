@@ -21,5 +21,18 @@
             "//*****************************************************"
         ],
         "description": "Inserts Method Information Template to fill in details."
+    },
+    "Cpp Boilerplate": {
+        "prefix": "!cpp_boilerplate",
+        "body": [
+            "#include <iostream>",
+            "",
+            "int main()",
+            "{",
+            "   ${1:std::cout << \"Hello world!!\";}",
+            "   return 0;",
+            "}"
+        ],
+        "description": "C++ Hello world boilerplate"
     }
 }

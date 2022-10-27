@@ -1,8 +1,8 @@
 {
   "name": "info-template",
   "displayName": "Info Template",
-  "description": "Insert File, Method Information templates with ease.",
-  "version": "1.0.1",
+  "description": "Insert File Information, Method Information and many more templates with ease.",
+  "version": "1.0.2",
   "publisher": "pjayakrishnan",
   "repository": {
     "type": "git",
@@ -14,7 +14,11 @@
     "file information template",
     "template",
     "insert template",
-    "insert snippet"
+    "insert snippet",
+    "cpp templates",
+    "boiler plates",
+    "cpp",
+    "csharp"
   ],
   "icon": "info-template-logo.png",
   "engines": {
@@ -27,11 +31,11 @@
     "snippets": [
       {
         "language": "cpp",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/cpp_snippets.code-snippets"
       },
       {
         "language": "csharp",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/csharp_snippets.code-snippets"
       }
     ]
   }

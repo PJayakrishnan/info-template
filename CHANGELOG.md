@@ -5,3 +5,8 @@ All notable changes to the "info-template" extension will be documented in this 
 ## [1.0.0]
 
 - Initial release of Info Template.
+
+## [1.0.2]
+
+- Added C++ and C# boilerplates snippets.
+
