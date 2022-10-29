@@ -34,5 +34,15 @@
             "}"
         ],
         "description": "C++ Hello world boilerplate"
+    },
+    "Read array from console": {
+        "prefix": "!read_array",
+        "body": [
+            "for(int i = 0 ; i < ${1:size} ; i++)",
+            "{",
+            "   std::cin >> ${2:array[i]};",
+            "}"
+        ],
+        "description": "Read array from console."
     }
 }

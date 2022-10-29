@@ -10,3 +10,8 @@ All notable changes to the "info-template" extension will be documented in this 
 
 - Added C++ and C# boilerplates snippets.
 
+## [1.0.3]
+
+- Added C++ and C# Array reading snippets.
+- Changed documentation to more readable format.
+
