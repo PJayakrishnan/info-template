@@ -2,7 +2,7 @@
   "name": "info-template",
   "displayName": "Info Template",
   "description": "Insert File Information, Method Information and many more templates with ease.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "pjayakrishnan",
   "repository": {
     "type": "git",
