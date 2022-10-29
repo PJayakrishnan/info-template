@@ -44,5 +44,15 @@
             "}"
         ],
         "description": "Read array from console."
+    },
+    "Print array to console": {
+        "prefix": "!print_array",
+        "body": [
+            "for(int i = 0 ; i < ${1:size} ; i++)",
+            "{",
+            "   std::cout << ${2:array[i]};",
+            "}"
+        ],
+        "description": "Print array to console."
     }
 }

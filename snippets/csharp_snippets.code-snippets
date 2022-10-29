@@ -47,5 +47,15 @@
             "}"
         ],
         "description": "Read array from console."
+    },
+    "Print array to console": {
+        "prefix": "!print_array",
+        "body": [
+            "foreach(var ${1:item} in myArray)",
+            "{",
+            "   Console.WriteLine(item.ToString());",
+            "}"
+        ],
+        "description": "Print array to console."
     }
 }

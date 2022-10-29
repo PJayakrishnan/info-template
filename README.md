@@ -16,6 +16,7 @@ You can insert various information templates just by typing the prefix and `Tab`
 | !mit             |  [Method Information Template]()   |
 | !cpp_boilerplate |  [Cpp Hellow world Boilerplate]()  |
 | !read_array      |  [Read array from console in C++]()|
+| !print_array     |  [Print array to console in C++]() |
 
 <br>
 
@@ -27,6 +28,7 @@ You can insert various information templates just by typing the prefix and `Tab`
 | !mit                |  [Method Information Template]()     |
 | !csharp_boilerplate |  [Csharp Hellow world Boilerplate]() |
 | !read_array         |  [Read array from console in C#]()   |
+| !print_array        |  [Print array to console in C#]()    |
 
 
 <br>
@@ -101,7 +103,6 @@ You can insert various information templates just by typing the prefix and `Tab`
 </details>
 
 
-</details>
 
 <details>
    <summary>Read array from console in C#</summary>
@@ -114,10 +115,35 @@ You can insert various information templates just by typing the prefix and `Tab`
 
 </details>
 
+
+<details>
+   <summary>Print array to console in C++</summary>
+   <br>
+    
+    for(int i = 0 ; i < ${1:size} ; i++)
+    {
+        std::cout << array[i];
+    }
+
+</details>
+
+
+<details>
+   <summary>Print array to console in C#</summary>
+   <br>
+    
+    foreach(var item in myArray)
+    {
+        Console.WriteLine(item.ToString());
+    }
+
+</details>
+
+
 <br>
 
 
-## 1.0.3
+## 1.0.5
 
 
 **Enjoy!**

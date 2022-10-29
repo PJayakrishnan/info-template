@@ -15,3 +15,6 @@ All notable changes to the "info-template" extension will be documented in this 
 - Added C++ and C# Array reading snippets.
 - Changed documentation to more readable format.
 
+## [1.0.5]
+
+- Added C++ and C# Array printing snippets.
